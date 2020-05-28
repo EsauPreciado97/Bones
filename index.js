@@ -8,8 +8,11 @@ import {OrbitControls} from './node_modules/three/examples/jsm/controls/OrbitCon
 
 
 var scene = new THREE.Scene();
-var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
-var renderer = new THREE.WebGLRenderer({canvas: canvas});
+var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 5000 );
+var renderer = new THREE.WebGLRenderer({canvas: canvas, antialias: true});
+
+
+//scene.background = new THREE.Color(0xdddddd);
 
 var controls = new OrbitControls(camera, renderer.domElement);
 controls.addEventListener('change', renderer);
@@ -17,47 +20,29 @@ controls.addEventListener('change', renderer);
     renderer.setSize( window.innerWidth, window.innerHeight );
     document.body.appendChild( renderer.domElement );
 
-var hlight = new THREE.AmbientLight (0x404040, 5);
+var hlight = new THREE.AmbientLight (0x404040, .5);
 scene.add(hlight);
 
-/*var directionalLight = new THREE.DirectionalLight(0xffffff,100);
+var directionalLight = new THREE.DirectionalLight(0xffffff,1);
 directionalLight.position.set(0,1,0);
 directionalLight.castShadow = true;
 scene.add(directionalLight);
 
-var light = new THREE.PointLight(0xc4c4c4,10);
-light.position.set(0,300,500);
+var light = new THREE.PointLight(0xc4c4c4,.5);
+light.position.set(0,100,5000);
 scene.add(light);
 
-var light2 = new THREE.PointLight(0xc4c4c4,10);
-light2.position.set(500,100,0);
+var light2 = new THREE.PointLight(0xc4c4c4,.3);
+light2.position.set(5000,100,-100);
 scene.add(light2);
-var light3 = new THREE.PointLight(0xc4c4c4,10);
-light3.position.set(0,100,-500);
+
+var light3 = new THREE.PointLight(0xc4c4c4,.3);
+light3.position.set(0,-100,-5000);
 scene.add(light3);
 
-var light4 = new THREE.PointLight(0xc4c4c4,10);
-light4.position.set(-500,300,500);
-scene.add(light4);*/
-
-
-/*const mtlLoader = new MTLLoader();
-
-mtlLoader.load('./assets/models/skull.mtl', function(materials) {
-
-    materials.preload();
-
-    let loader = new OBJLoader2();
-    loader.setMaterials(materials);
-    
-    loader.load('./assets/models/skull.obj', callbackOnLoad, null, null, null);
-
-
-});
-
-function callbackOnLoad( object3d ) {
-    scene.add(  object3d );
-}*/
+var light4 = new THREE.PointLight(0xc4c4c4,.3);
+light4.position.set(-5000,100,100);
+scene.add(light4);
 
 var loader = new GLTFLoader();
 
@@ -67,18 +52,22 @@ loader.setDRACOLoader( dracoLoader );
 
 loader.load(
     
-    './assets/models/human/scene.gltf',
+    './assets/models/skull/scene.gltf',
 
     function( gltf ) {
 
  
-        scene.add( gltf.scene );
-
+        
         gltf.animations;
         gltf.scene;
         gltf.scenes;
         gltf.cameras;
         gltf.asset;
+
+        gltf.scene.scale.set(.2, .2, .2);
+
+        scene.add( gltf.scene );
+
         
     },
 
@@ -95,7 +84,8 @@ loader.load(
 	}
 );
 
-    camera.position.z = 2;
+    camera.position.z = 3000;
+
 
 var animate = function () {
     requestAnimationFrame( animate );
