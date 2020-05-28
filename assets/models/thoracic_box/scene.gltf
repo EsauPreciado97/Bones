@@ -1,0 +1,630 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        412.36712646484375,
+        -128.18705749511719,
+        344.59521484375
+      ],
+      "min": [
+        29.030656814575195,
+        -312.73196411132812,
+        -329.00192260742188
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99999427795410156,
+        0.99998772144317627,
+        0.99999785423278809
+      ],
+      "min": [
+        -0.99999076128005981,
+        -0.99998831748962402,
+        -0.99999815225601196
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.89411765336990356,
+        0.86666667461395264,
+        0.78823530673980713,
+        1
+      ],
+      "min": [
+        0.89411765336990356,
+        0.86666667461395264,
+        0.78823530673980713,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 163875,
+      "max": [
+        65531
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        409.28497314453125,
+        -98.255615234375,
+        343.73190307617188
+      ],
+      "min": [
+        62.600273132324219,
+        -351.54571533203125,
+        -293.34225463867188
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2359164,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.99996381998062134,
+        0.99991834163665771,
+        0.99998480081558228
+      ],
+      "min": [
+        -0.99996709823608398,
+        -0.99989598989486694,
+        -0.99998956918716431
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.89411765336990356,
+        0.86666667461395264,
+        0.78823530673980713,
+        1
+      ],
+      "min": [
+        0.89411765336990356,
+        0.86666667461395264,
+        0.78823530673980713,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 655500,
+      "componentType": 5125,
+      "count": 248499,
+      "max": [
+        65532
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3145560,
+      "componentType": 5126,
+      "count": 47336,
+      "max": [
+        409.28497314453125,
+        -99.549095153808594,
+        343.44134521484375
+      ],
+      "min": [
+        31.990524291992188,
+        -354.49520874023438,
+        -290.66183471679688
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 3713592,
+      "componentType": 5126,
+      "count": 47336,
+      "max": [
+        0.99999153614044189,
+        0.99999159574508667,
+        0.99996209144592285
+      ],
+      "min": [
+        -0.99999153614044189,
+        -0.99999487400054932,
+        -0.99999046325683594
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2097040,
+      "componentType": 5126,
+      "count": 47336,
+      "max": [
+        0.89411765336990356,
+        0.86666667461395264,
+        0.78823530673980713,
+        1
+      ],
+      "min": [
+        0.89411765336990356,
+        0.86666667461395264,
+        0.78823530673980713,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1649496,
+      "componentType": 5125,
+      "count": 184977,
+      "max": [
+        47335
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4281624,
+      "componentType": 5126,
+      "count": 1874,
+      "max": [
+        262.8641357421875,
+        -137.36213684082031,
+        342.94119262695312
+      ],
+      "min": [
+        203.190673828125,
+        -266.8004150390625,
+        -184.02717590332031
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4304112,
+      "componentType": 5126,
+      "count": 1874,
+      "max": [
+        0.99633675813674927,
+        0.99964147806167603,
+        0.99993973970413208
+      ],
+      "min": [
+        -0.99832701683044434,
+        -0.99989312887191772,
+        -0.99999809265136719
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2854416,
+      "componentType": 5126,
+      "count": 1874,
+      "max": [
+        0.81176471710205078,
+        0.90196079015731812,
+        0.89803922176361084,
+        1
+      ],
+      "min": [
+        0.81176471710205078,
+        0.90196079015731812,
+        0.89803922176361084,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2389404,
+      "componentType": 5125,
+      "count": 11004,
+      "max": [
+        1873
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4326600,
+      "componentType": 5126,
+      "count": 3494,
+      "max": [
+        364.91082763671875,
+        -229.31611633300781,
+        269.42742919921875
+      ],
+      "min": [
+        74.94287109375,
+        -365.07785034179688,
+        -327.05313110351562
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4368528,
+      "componentType": 5126,
+      "count": 3494,
+      "max": [
+        0.99999284744262695,
+        0.99960339069366455,
+        0.9992595911026001
+      ],
+      "min": [
+        -0.99975442886352539,
+        -0.99993395805358887,
+        -0.99982458353042603
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2884400,
+      "componentType": 5126,
+      "count": 3494,
+      "max": [
+        0.81176471710205078,
+        0.90196079015731812,
+        0.89803922176361084,
+        1
+      ],
+      "min": [
+        0.7607843279838562,
+        0.85490196943283081,
+        0.85098040103912354,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2433420,
+      "componentType": 5125,
+      "count": 18210,
+      "max": [
+        3493
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "E-learning UMCG (https://sketchfab.com/eLearningUMCG)",
+      "license": "CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "source": "https://sketchfab.com/3d-models/thoracic-abdominal-skeleton-based-on-ct-data-a423ea77377f41438d017e108e060d5e",
+      "title": "Thoracic & abdominal skeleton, based on CT data"
+    },
+    "generator": "Sketchfab-6.31.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2506260,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4410456,
+      "byteOffset": 2506260,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2940304,
+      "byteOffset": 6916716,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 9857020,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Bones59",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Vertebral_discs",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          0.53830030490000003
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "PM3D_Cube3D15",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          0.5322027439
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Bones59_Bones59_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 2,
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Bones59_Bones59_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 6,
+            "NORMAL": 5,
+            "POSITION": 4
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Bones59_Bones59_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 10,
+            "NORMAL": 9,
+            "POSITION": 8
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Vertebral_discs_Vertebral_discs_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 14,
+            "NORMAL": 13,
+            "POSITION": 12
+          },
+          "indices": 15,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "PM3D_Cube3D15_PM3D_Cube3D15_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 18,
+            "NORMAL": 17,
+            "POSITION": 16
+          },
+          "indices": 19,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.98939394950866699,
+        0.14503556489944458,
+        -0.0080153821036219597,
+        0,
+        0,
+        -0.055180739611387253,
+        -0.99847638607025146,
+        0,
+        -0.14525687694549561,
+        0.98788648843765259,
+        -0.054595492780208588,
+        0,
+        -31.351919174194336,
+        188.90570068359375,
+        -250.63224792480469,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "5ce93e1a592a4962b465167ee19487d8.fbx"
+    },
+    {
+      "children": [
+        4,
+        8,
+        10
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7
+      ],
+      "name": "Bones59"
+    },
+    {
+      "mesh": 0,
+      "name": "Bones59_Bones59_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Bones59_Bones59_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Bones59_Bones59_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "name": "Vertebral_discs"
+    },
+    {
+      "mesh": 3,
+      "name": "Vertebral_discs_Vertebral_discs_0"
+    },
+    {
+      "children": [
+        11
+      ],
+      "name": "PM3D_Cube3D15"
+    },
+    {
+      "mesh": 4,
+      "name": "PM3D_Cube3D15_PM3D_Cube3D15_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+

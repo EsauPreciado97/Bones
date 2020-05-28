@@ -1,4 +1,6 @@
 <html lang="en">
+
+<!--HEADER-->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,15 +8,15 @@
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/my-style.css">
-  <script type="module" src="./index.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
-  
+
   <title>BONES | Human Anatomy Visualizer</title>
   <link rel="icon" type="image/png" href="./assets/icons/skull.png">
 </head>
+
+
 <body class="body" style="background-color: #000000;">
 
-  <!--HEADER-->
   <div class="container-fluid">
     <div class="row" style="text-align: center;">
       <div class="col-sm-4"></div>
@@ -38,14 +40,16 @@
       <div class="col-sm-4"></div>
       <div class="col-sm-4">
         <div class="input-group">
-          <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+          <select class="custom-select" id="dropdownBones">
             <option selected>Pick a bone...</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+            <option value="1">Skull</option>
+            <option value="2">Thoracic Box</option>
+            <option value="3">Spine</option>
           </select>
           <div class="input-group-append">
-            <button class="btn btn-outline-light" type="button">STAGE</button>
+          <button id="stage" class="btn btn-outline-light action">STAGE</button>
+          <script type="module" src="./index.js"></script>
+          <script type="module" src="./models.js"></script>
           </div>
         </div>
       </div>
@@ -56,12 +60,13 @@
   <!--CANVAS-->
   <div class="container-fluid">
     <div class="row" style="margin-top: 25px; text-align: center;">
-      <canvas id="canvas" style="background-color: #ffffff;"></canvas>
+      <canvas id="canvas" style="background-color: #000000;"></canvas>
     </div>
   </div>
 
 
    <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
