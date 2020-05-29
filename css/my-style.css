@@ -8,7 +8,7 @@
 /* -- CANVAS STYLE -- */
 #canvas{
     width: 100% !important;
-    height: 800px;
+    height: 500px;
 }
 
 /* -- FOOTER STYLE -- */
@@ -19,3 +19,32 @@
     border-color: black;
 }
 
+#info-left{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 50%;
+    text-align: left;
+    z-index: 100;
+    display: block;
+
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 8em;
+    color: white;
+
+}
+
+#info-right{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 50%;
+    text-align: right;
+    z-index: 100;
+    display: block;
+
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 8em;
+    color: white;
+
+}
