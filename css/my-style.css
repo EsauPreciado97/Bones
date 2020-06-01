@@ -48,3 +48,19 @@
     color: white;
 
 }
+
+#description{
+
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 20%;
+    text-align: justify;
+    z-index: 100;
+    display: block;
+
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.1em;
+    color: white;
+
+}

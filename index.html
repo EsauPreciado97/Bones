@@ -22,8 +22,6 @@
       <div class="col-sm-4"></div>
       <div class="col-sm-4">
         <button class="btn btn-dark footer" id="HowToUse" onclick="location.href='./howtouse.html'">How to use</button>
-        <button class="btn btn-dark footer" id="About">About the project</button>
-        <button class="btn btn-dark footer" id="Credits">Credits</button>
       </div>
       <div class="col-sm-4"></div>
     </div>
@@ -31,7 +29,7 @@
     <div class="row" style="margin-top: 25px; text-align: center;">
       <div class="col-sm-3"></div>
       <div class="col-sm-6">
-        <img src="./assets/icons/skull.png">
+        <img src="./assets/icons/skull.png" onclick="location.href='./index.html'">
         <div class="title">BONES</div>
       </div>
       <div class="col-sm-3"></div>
@@ -45,6 +43,7 @@
             <option value="1">Skull</option>
             <option value="2">Thoracic Box</option>
             <option value="3">Spine</option>
+            <option value="4">Skeleton</option>
           </select>
           <div class="input-group-append">
           <button id="stage" class="btn btn-outline-light">STAGE</button>
@@ -62,6 +61,7 @@
     <div class="row" style="margin-top: 25px; text-align: center;">
       <canvas id="canvas" style="background-color: #000000;"></canvas>
     </div>
+    <div id="description"></div>
   </div>
 
 

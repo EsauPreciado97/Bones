@@ -14,6 +14,9 @@ function events(){
     else if(value==3){
         MODEL.drawSpine();
     }
+    else if(value==4){
+        MODEL.drawSkeleton();
+    }
 
 }
 
